@@ -22,7 +22,7 @@
 - With React, FastAPI, and XGOAU FGT Roundtable,
 - For [Anyone](https://ukubona-llc.github.io/)
    - SovereignPerson
-   - KinNetwork
+   - [KinNetwork](https://github.com/ukubona-llc/ukb-journaling)
    - EcoSystem
    - FederatedRegulators
    - CivilizationalPlanners
@@ -2245,7 +2245,7 @@ The architecture can be expressed almost mathematically.
 
 At its center:
 
-State_t = \sum_{i=0}^{t} Event_i
+$State_t = \sum_{i=0}^{t} Event_i$
 
 Every layer becomes a projection of the same event stream.
 
@@ -2583,7 +2583,7 @@ The dressing shown in Images 1-4 (circumferential gauze wrap) is **exemplary ped
 
 **Clinical appropriateness:** 10/10
 
-The **system failure** wasn't clinical; it was **administrative** — the hospital couldn't email images, couldn't estimate costs, and charged $1,200+ for what it quoted as $200.
+The **system failure** wasn't clinical; it was **administrative** — the hospital couldn't email images, couldn't estimate costs, and charged `$1,200+` for what it quoted as `$200`.
 
 ---
 
@@ -2631,7 +2631,7 @@ RSC's case is your **canonical deployment test:**
 1. **Pediatric guardianship** ✅ Demonstrated — guardian as root node
 2. **Kin-network as clinical intelligence** ✅ Demonstrated — advisor provides guidance without access to medical record
 3. **Consent barriers in practice** ✅ Documented — image transfer blocked, workaround enacted
-4. **Cost as a health event** ✅ Demonstrated — price randomness ($47 vs. $3,000) is discoverable in event stream
+4. **Cost as a health event** ✅ Demonstrated — price randomness (`$47` vs. `$3,000`) is discoverable in event stream
 5. **Wholehearted consent to research** ✅ Demonstrated — RSC trusts the design because it made her *feel loved, attended to, remembered*
 
 That last point is non-technical but crucial: **The architecture's legitimacy rests on whether the guardian experiences it as attentive care, not surveillance.**
@@ -2716,8 +2716,8 @@ RSC did. She's ready to be your beta tester.
 | 7/18/25, 8:11-8:12 PM | RSC | "Yo 😂" [Photo of Brandon in hospital setting] + "You live you learn! This has been quite the experience! The hospital sent us some cask back 😂 maybe they felt guilty for over charging lol" | `billing.received` / `sentiment.resilience` | Hospital credits/refunds issued (amount unspecified; suggests guilt-motivated reversal); RSC's tone: **humorous resilience despite financial stress.** |
 | 7/18/25, 10:26 PM | Advisor | "Delighted to hear that!!! Haha" | `support.acknowledged` | |
 | 8/7/25, 3:23 AM | RSC | "Hey hey 👋 how's it going? We uneventfully travelled back to Uganda... phew 😂 got the cast removed yesterday and the new X-rays were good. Looks like we are on our way to full recovery! Thank you once again for all your help. Bless you" | `treatment.cast_removal` / `imaging.followup` / `outcome.positive` | **RECOVERY MILESTONE:** Cast removed; follow-up X-rays **normal**; child healing on expected trajectory; **family returned to Uganda.** |
-| 8/7/25, 3:23 AM | RSC (continued) | "Meanwhile we got another 1000$ bill from the ER 😭" + "I hear doctor fees 😭" + "I was so upset! Hope they don't keep coming!" + "The children's hospital where we got the cast sent a radiology bill of 47$ I was so pleasantly surprised!" | `billing.accumulation` | **COST BREAKDOWN (reconstructed):**  - Initial cast cost quoted: **$200** (vs. actual likely higher)  - ER bill: **$1,000** (unexpected; source unclear — may be separate incident or imaging)  - Radiology (children's hospital): **$47** (reasonable)  - Doctor fees: ongoing  - **Total out-of-pocket: ~$1,200+** (vs. $200 quoted) |
-| 8/7/25, 4:59 AM | RSC (continued) | "The children's hospital where we got the cast sent a radiology bill of 47$ I was so pleasantly surprised! This is the randomness. If you ended up at a hospital a few blocks away, it might be $3,000" | `insight.systemic` | **GUARDIAN'S INSIGHT:** RSC recognizes **geographic cost randomness** — same procedure, nearby hospital = 64x cost difference ($47 vs. $3,000). This is the **American healthcare pricing chaos** that the sovereign patient architecture aims to surface/address. |
+| 8/7/25, 3:23 AM | RSC (continued) | "Meanwhile we got another `$1000` bill from the ER 😭" + "I hear doctor fees 😭" + "I was so upset! Hope they don't keep coming!" + "The children's hospital where we got the cast sent a radiology bill of `$47` I was so pleasantly surprised!" | `billing.accumulation` | **COST BREAKDOWN (reconstructed):**  - Initial cast cost quoted: **`$200`** (vs. actual likely higher)  - ER bill: **`$1,000`** (unexpected; source unclear — may be separate incident or imaging)  - Radiology (children's hospital): **`$47`** (reasonable)  - Doctor fees: ongoing  - **Total out-of-pocket: `~$1,200`+** (vs. `$200` quoted) |
+| 8/7/25, 4:59 AM | RSC (continued) | "The children's hospital where we got the cast sent a radiology bill of `$47` I was so pleasantly surprised! This is the randomness. If you ended up at a hospital a few blocks away, it might be `$3,000`" | `insight.systemic` | **GUARDIAN'S INSIGHT:** RSC recognizes **geographic cost randomness** — same procedure, nearby hospital = 64x cost difference (`$47` vs. `$3,000`). This is the **American healthcare pricing chaos** that the sovereign patient architecture aims to surface/address. |
 | 8/7/25, 5:00-5:01 AM | User/Advisor | "Gosh! Anyways you live you learn! TRAVEL INSURANCE" | `advice.prospective` | Advisor summarizes lesson: travel insurance is **essential** for international medical encounters (echoing WSJ article RSC shared earlier). |
 | 8/7/25, 5:00-5:01 AM | User | "My company is designing an app where you 'learn' from playing fictional scenarios and seeing the consequences" + "Sign me up! This would be a great resource" | `meta.prototype` / `consent.research` | **ARCHITECTURAL MOMENT:** User reveals they are **designing a learning app** based on scenarios like RSC's. RSC **consents to contribute** (implicitly; "sign me up"). |
 | 8/7/25, 5:01 AM | User | "Ukubona LLC - Health Tech Infrastructure for Personalized Care" + "I'll let you know ASAP so that yu signup for the test prototype model" | `organization.identified` | Organization: **Ukubona LLC**; user offering **beta test access** to prototype |
